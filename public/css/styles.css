@@ -7,6 +7,8 @@
 
 }
 
+
+
 .icones {
    display: flex;
    flex-direction: row;
@@ -30,24 +32,26 @@
 .date2 {
    display: flex;
    flex-direction: row;
+   width: 40%;
 }
 
 .text {
    display: flex;
    flex-direction: column;
-   margin: auto;
-   text-align: justify;
+   max-width: 60%;
+   padding-top: 20px;
+   justify-content: space-between;
 
 }
 
 h5 {
    padding: 2px;
-   margin: 5px;
+   margin: 0px;
    font-size: 20px;
 }
 h6 {
-   padding: 2px;
-   margin: 5px;
+   padding: 0px;
+   margin:05px;
    font-size: 14px;
 }
 
