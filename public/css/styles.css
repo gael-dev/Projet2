@@ -35,8 +35,9 @@
 .text {
    display: flex;
    flex-direction: column;
-   margin-left: 150px;
+   margin: auto;
    text-align: justify;
+
 }
 
 h5 {
