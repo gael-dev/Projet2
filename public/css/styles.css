@@ -83,6 +83,33 @@ img {
    margin-top: 25px;
 }
 
+@media screen and (max-width: 900px) {
+  
+   #blocpage {
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   }
+   aside {
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   main {
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+   margin-left: 0px;
+   }
+   about {
+      padding-bottom: 50px;
+   }
+   down {
+      margin-top: 30px;
+   }
+}
+
 .border {
    background-color: rgb(49, 49, 49);
    text-align: center;
@@ -113,7 +140,7 @@ h3 {
 
 h1 {
    font-size: 50px;
-   margin-bottom: 0px;
+  
 }
 
 h2 {
@@ -155,7 +182,6 @@ h4 {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin-right: 50px;
    font-size: 17px;
    line-height: 30px;
 
