@@ -102,12 +102,19 @@ img {
     width: 100%;
    margin-left: 0px;
    }
+  
+   people {
+      display: flex;
+      flex-direction: column;
+   }
+
    about {
       padding-bottom: 50px;
    }
    down {
       margin-top: 30px;
    }
+ 
 }
 
 .border {
@@ -184,8 +191,7 @@ h4 {
    justify-content: space-between;
    font-size: 17px;
    line-height: 30px;
-
-   
+   margin-right: 60px;
 }
 
 .ico2 {
