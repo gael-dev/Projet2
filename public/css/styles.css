@@ -203,8 +203,7 @@ h4 {
    .people {
       display: flex;
       flex-wrap: wrap;
-      text-align: center;
-      margin-left: 100px;
+      margin-left: 70px;
    }
 
    .about {
@@ -224,13 +223,28 @@ h4 {
     width: auto;
  }
 
+h4 {
+   font-size: 20px;
+}
+
+}
+
 @media screen and (max-width: 320px) {
  h4 {
     font-size: 20px
  }
  .people {
-   
+   margin-left: 0px;
     justify-content: space-around;
  }
  
+.ico2 {
+   font-size: 30px;
+   margin: auto;
+}
+
+.reco {
+   margin-left: 60px;
+}
+
 }
