@@ -95,7 +95,7 @@ img {
 }
 
 .down {
-   margin-top: 230px;
+   margin-top: 50px;
    margin-bottom: 30px;
 }
 
@@ -112,7 +112,16 @@ h3 {
    text-align: justify;
    padding-left: 40px;
    padding-right: 40px;
-   padding-bottom: 300px;
+   padding-bottom: 50px;
+}
+
+.Compétences {
+
+   text-align: justify;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 50px;
+
 }
 
 h1 {
@@ -248,3 +257,5 @@ h4 {
 }
 
 }
+
+
